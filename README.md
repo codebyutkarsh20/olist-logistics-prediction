@@ -22,6 +22,12 @@ The solution involves a robust Machine Learning pipeline that:
     -   *Note: This significantly outperforms baseline heuristics by capturing complex non-linear relationships like distance and seller reliability.*
     -   **Outlier Strategy**: Validated >3σ outliers as valid long-haul deliveries (avg 1087km) rather than data errors, preserving critical signal for remote regions.
 
+## 🕵️ Deep Dive Business Insights
+Beyond prediction, we analyzed **Customer Experience** and **Revenue Drivers**:
+1.  **The "Late Delivery Penalty"**: Delivered orders average **4.3 stars**, but late orders drop drastically to **2.6 stars** (-40%). This quantifies the exact ROI of logistics improvements.
+2.  **Pareto Principle**: **22% of product categories** drive **80% of revenue**, allowing for targeted inventory prioritization.
+3.  **Hidden Premium Markets**: Customers in **Bahia (BA)** spend **27% more per order** than São Paulo customers, highlighting an under-served premium demographic.
+
 ## 🚀 Pipeline Steps
 
 ### 1. Data Ingestion & Merging
